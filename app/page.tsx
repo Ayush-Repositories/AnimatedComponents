@@ -1,4 +1,3 @@
-//@ts-ignore
 import GlideButton from "@/components/GlideButton";
 
 export default function Home() {

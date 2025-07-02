@@ -2,7 +2,11 @@
 import {motion} from 'motion/react'
 import ClosingCard from './ClosingCard'
 
-export default function GlideButton(props: any) {
+interface GlideButtonProps {
+  text?: string;
+}
+
+export default function GlideButton(props: GlideButtonProps) {
   return (
     <div className="[perspective::1000px] [transform-style:preserve-3d] h-screen w-full bg-neutral-950 flex items-center justify-center gap-10" style={{
         backgroundImage: `radial-gradient(circle at 0.5px 0.5px, rgba(255,255,255,0.2) 0.5px, transparent 0)`,

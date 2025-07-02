@@ -7,7 +7,7 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 
-export default function () {
+export default function ClosingCard() {
     const [open, setOpen] = useState(true)
 
     return (
